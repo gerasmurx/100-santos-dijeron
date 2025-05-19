@@ -1396,7 +1396,7 @@ function reinicioDeVidas() {
 
 function mainIndex() {
   var printMainIndex =
-    '<div class="main"><div class="style-img-main-top"><img class="img-main-top" src="img/logo-100.png"></div><div class="menu-main"><div class="main-btns"><button class="btn-menu" onclick="preComenzar()">Jugar</button><button class="btn-menu" onclick="respuestas()">Respuestas</button><button class="btn-menu" onclick="instrucciones()">Instrucciones</button></div></div></div>';
+    '<div class="main"><div class="style-img-main-top"><img class="img-main-top" src="img/100santosdijeron.png"></div><div class="menu-main"><div class="main-btns"><button class="btn-menu" onclick="preComenzar()">Jugar</button><button class="btn-menu" onclick="respuestas()">Respuestas</button></div></div></div>';
 
   document.getElementById("mainIndex").innerHTML = printMainIndex;
 }
